@@ -1,0 +1,86 @@
+*{
+    font-family: cursive;
+}
+body{
+    /* background-color: #827397; */
+    background-image: url("teen.jpg");
+}
+.Under{
+    background-color: white;
+    border: 1px solid black;
+    width: 27%;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px 1.5px white;
+}
+.Fulltime{
+    text-align: center;
+    font-family: cursive;
+}
+p{
+    text-align: center;
+    font-family: cursive;
+}
+input[type='text']{
+    display: flex;
+    margin-left: 80px;
+    width: 170px;
+    height: 25px;
+    text-align: center;
+}
+input[type='password']{
+    display: flex;
+    margin-left: 80px;
+    width: 170px;
+    height: 25px;
+    text-align: center;
+
+}
+input[type='submit']{
+    display: flex;
+    margin-left: 130px;
+    width: 70px;
+    height: 29px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.74);
+    border: none;
+    padding: 10px;
+    line-height: 0.5rem;
+    cursor: pointer;
+}
+input[type='submit']:hover{
+    filter: brightness(0.7);
+}
+img{
+    margin-left: 90px;
+}
+button{
+    margin-left: 129px;
+    margin-top: 15px;
+    width: 70px;
+    height: 29px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    filter: brightness(0.7);
+}
+a{
+    text-decoration: none;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+#para2{
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
